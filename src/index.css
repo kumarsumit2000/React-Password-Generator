@@ -5,7 +5,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    width: 500px;
+    max-width: 500px;
     padding: 50px;
     display: flex;
     flex-direction: column;
