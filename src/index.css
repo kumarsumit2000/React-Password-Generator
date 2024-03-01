@@ -1,0 +1,50 @@
+body{
+    background: #212121;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+}
+.container div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgb(211, 209, 209);
+}
+button{
+    position: relative;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: rgb(69, 69, 236);
+    color: white;
+}
+button:hover{
+background: orangered;
+transition: 0.5s;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
